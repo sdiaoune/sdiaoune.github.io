@@ -40,13 +40,13 @@ nothingHasThisTagImPrettySure {
     background-color: white;
 }
 #navbar {
-  background-color: #a51e5f;
+  background-color: #00BFFF;
 }
 #theEmailLink:hover,  #main_s > p, button:hover:not(.disabled) {
     background-color: #a51e5f;
 }
 #qa_s, #countdown_s, #map_s, #contact_s {
-    background-color: rgba(176,224,230,0.4);
+    background-color: rgba(0,191,255,0.4);
 
 }
 gjeljgewgjigj {
@@ -92,7 +92,7 @@ nothingHasThisTagImPrettySure {
 }
 footer {
     color: white;
-    background: #a51e5f;
+    background: #00BFFF;
 }
 .faq, #countdownTimer, #button {
     /*background: rgba(0, 0, 0, .1;*/
