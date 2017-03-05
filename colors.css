@@ -1,0 +1,110 @@
+nothingHasThisTagImPrettySure {
+    color: black;
+}
+nothingHasThisTagImPrettySure {
+    color: white;
+}
+uuuuuuuuuuuuuuuuuu {
+    color: #D494E5;
+}
+uuuuuuuuuuuuuuuuuu {
+    color: #EB87B0;
+}
+nothingHasThisTagImPrettySure {
+    color: #F07E83;
+}
+nothingHasThisTagImPrettySure {
+    color: #F3A271;
+}
+html, body, button  {
+    color: #FFFFFF;
+}
+
+red {
+    color: #F07E83
+}
+
+orange {
+    color: #F3A271
+}
+
+yellow {
+    color: #F4F39E;
+}
+
+
+nothingHasThisTagImPrettySure {
+    background-color: black;
+}
+nothingHasThisTagImPrettySure {
+    background-color: white;
+}
+#navbar {
+  background-color: #a51e5f;
+}
+#theEmailLink:hover,  #main_s > p, button:hover:not(.disabled) {
+    background-color: #a51e5f;
+}
+#qa_s, #countdown_s, #map_s, #contact_s {
+    background-color: rgba(240,126,131,0.4);
+
+}
+gjeljgewgjigj {
+    background-color: #F07E83;
+}
+ {
+    background-color: #F3A271;
+}
+.bar {
+    background-color: white;
+}
+
+
+
+
+nothingHasThisTagImPrettySure {
+    border-color: black;
+}
+nothingHasThisTagImPrettySure {
+    border-color: white;
+}
+gkughkujhgk {
+    border-color: #D494E5;
+}
+nothingHasThisTagImPrettySure {
+    border-color: #EB87B0;
+}
+nothingHasThisTagImPrettySure {
+    border-color: #F07E83;
+}
+nothingHasThisTagImPrettySure {
+    border-color: #F3A271;
+}
+#navbar, button {
+    border-color: white;
+}
+
+
+
+
+/* Exceptions */
+#contact_s {
+}
+footer {
+    color: white;
+    background: #a51e5f;
+}
+.faq, #countdownTimer, #button {
+    /*background: rgba(0, 0, 0, .1;*/
+}
+
+/* Buttons */
+
+button {
+    background-color: transparent;
+}
+@media screen and (max-width: 650px) {
+    button {
+      background-color: inherit;
+    }
+}

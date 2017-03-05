@@ -1,0 +1,102 @@
+.mobile {
+    display: none;
+}
+
+#dropdown {
+    background: url(resources/polyhax.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-image: url('resources/backgroundimg(1)_seamless_y.png');
+        background-attachment: scroll;
+        background-repeat: repeat-y;
+        background-position: top center;
+        background-size: auto 200%;
+    }
+    nav {
+        width: 100%;
+        flex-direction: column;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    nav > a {
+        text-align: right;
+        padding-right: 20px;
+        box-sizing: border-box;
+        font-size: 20pt;
+        line-height: 65px;
+        height: 65px;
+    }
+    nav:not(.hidden) > a:not(#dropdown) {
+        opacity: 0;
+        pointer-events: none;
+        height: 0;
+    }
+    nav:not(.hidden) > a:not(#dropdown).animate {
+        -webkit-transition: height .5s, opacity .4s;
+        transition: height .5s, opacity .4s;
+    }
+    nav:not(.hidden).showing > a:not(#dropdown) {
+        pointer-events: all;
+        height: 65px;
+        opacity: 1;
+    }
+    nav > a#dropdown {
+        height: 65px;
+    }
+    nav > a#dropdown > img {
+        -webkit-transition: -webkit-transform .3s;
+        transition: transform .3s;
+    }
+    nav > a#dropdown:hover > img {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    nav > a#logo > img {
+        height:65px;
+    }
+
+    .mobile {
+        display: block;
+    }
+    #tooltip {
+        display: none;
+    }
+    #mlhBanner {
+        top: 67px;
+        width: 78px;
+        height: 139px;
+        right: 1px;
+    }
+
+    .faq > .question {
+        font-size: 26px;
+        line-height: 45.5px;
+    }
+    .faq.show > .answer {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .social {
+        width: 52px;
+        height: 52px;
+        font-size: 26px !important;
+    }
+    .social:before {
+        line-height: 52px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        overflow: scroll;
+        background-color: inherit;
+    }
+}
