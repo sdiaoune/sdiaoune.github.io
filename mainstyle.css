@@ -11,8 +11,6 @@ nav {
 header {
 	margin: 0;
 	padding: 0;
-	left: 0;
-	top: 0;
 }
 
 html, body {
@@ -38,14 +36,44 @@ h1 {
 	
 }
 
-.aboutme {
-	color: black;
+.aboutme, .resume, .food, .music, .pet {
+	color: white;
 	text-align: center;
-	margin: 0;
-	padding: 0;
-	font-family: arial;
-	background-color: red;
-	top: 0;
+	font-family: 'Poppins', sans-serif;
+	padding: 100px;
+}
+
+.aboutme {
+	background: #c21500; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #c21500, #ffc500); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #c21500, #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resume {
+	background: #ee0979;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.food {
+	background: #7b4397;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.music {
+	background: #4776E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.pet {
+	background: #D31027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -67,4 +95,17 @@ ul li a {
 
 li a: hover {
 
+}
+
+.diva {
+	text-decoration: none;
+	color: #64b3f4;
+}
+
+.bottompage {
+	padding: 20px;
+	text-align: center;
+	background-color: #333;
+	color: white;
+	font-family: 'Poppins', sans-serif;
 }
