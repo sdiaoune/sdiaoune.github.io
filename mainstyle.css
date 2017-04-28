@@ -97,6 +97,10 @@ li a: hover {
 
 }
 
+.foodimg, .petimg {
+	box-shadow: 5px 5px 20px black;
+}
+
 .diva {
 	text-decoration: none;
 	color: #64b3f4;
